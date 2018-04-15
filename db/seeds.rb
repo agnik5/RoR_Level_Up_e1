@@ -9,4 +9,4 @@
 
 
 User.create_with(status: 'suspended').find_or_create_by(email: 'qwe@qwe.com')
-
+User.create_with(status: 'active', token: 'f00bar').find_or_create_by(email: 'qaz@wsx.org')
